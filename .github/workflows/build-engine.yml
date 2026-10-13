@@ -46,7 +46,7 @@ jobs:
           repository: Niko1221/Strata
           # v0.1.41 is what the launcher's MIN_ENGINE asks for; tracking main
           # would build an engine the launcher then refuses.
-          ref: v0.1.41
+          ref: main
           path: engine-src
 
       - name: Tools the bundle step needs
